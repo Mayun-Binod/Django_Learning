@@ -1,0 +1,43 @@
+# 24 July 2024
+
+1. What is Django?
+=> Django is a python web-framework
+
+2. Why framework?
+=> It is not feasible to write the web development prerequisites. So we use framework.
+=> Reinventing the wheel. Do not reinvent the wheel.
+
+
+3. Difference between framework and library
+=> A library with a complete ecosystem is a framework. Example: Django
+=> If the library is not self-sustaining (if it requires extra package / library) to create the basic features then it is simply a library. Example => Flask
+
+
+4. Other python web-frameworks:
+=> Flask
+=> FastAPI
+=> Pyramid
+=> Odoo
+
+5. Why Django?
+=> Django is full-fledge framework and has almost all functionality to create a web application
+=> It is easier to learn 
+=> It already has better security systems.
+
+6. Types of Web Application?
+=> SPA (Single Page Application) => All the codes of Frontend are fetched once and only components are changed later
+=> SSR (Server Side Rendering) => FE codes are fetched in every request.
+
+
+7. Which type of application (SPA/SSR) do we create in this class?
+=> We will create SSR applications using Django
+=> For most of the time we stick to Django MVT architecture but we will also learn creating APIs using Django
+=> We will not learn FE framework in this class (React, Angular, Vue)
+
+
+8. Setting up a Django Project
+=> Create a project folder
+=> Create and activate a virtual environment
+=> pip install django
+
+=> django-admin startproject <project_name>
